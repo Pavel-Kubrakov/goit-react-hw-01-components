@@ -1,0 +1,32 @@
+.stats{
+    background-color: rgb(240, 240, 240);
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    border-top:2px solid #e2e2e2 ;
+}
+
+.stat:not(:last-child) {
+    border-right:2px solid #e2e2e2
+}
+
+.name{
+    color: rgb(158, 158, 158);
+}
+
+.number{
+    margin-top: 5px;
+    font-weight: bold;
+}

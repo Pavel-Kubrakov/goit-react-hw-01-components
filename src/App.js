@@ -1,11 +1,13 @@
-import {ProfileCard} from "./components/ProfileCard";
-import user from "./user.json"
-
-export default App;
+import {Profile} from './components/Profile/Profile'
+import {Statisstics} from './components/Stastistics/Statisstics'
 
 function App() {
   return (
-    <ProfileCard user={user}>
-    </ProfileCard>
+    <div>
+      <Profile/>
+      <Statisstics/>
+    </div>
   );
 }
+
+export default App;
